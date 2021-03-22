@@ -1,0 +1,38 @@
+namespace: sparta
+name: upi
+version: 0.0.1
+readme: README.md
+authors:
+- "CodeSparta (https://codectl.io)"
+description: 'CodeSparta OpenShift UPI Deployment IaC'
+tags:
+  - iac
+  - upi
+  - openshift
+  - disconnected
+  - airgap
+  - ocp
+  - tpdk
+  - cloudctl
+  - koffer
+  - konductor
+dependencies:
+  "containers.podman": ">=1.4.3"
+license:
+- GPL-3.0-only
+repository: http://github.com/codesparta/upi
+issues: https://github.com/CodeSparta/upi/issues
+documentation: http://codectl.io
+homepage: http://codectl.io
+build_ignore:
+  - ci
+  - tests/output
+  - build_artifact
+  - "*.tar.gz"
+  - ".gitignore"
+  - ".history"
+  - ".vscode"
+  - ".idea"
+  - ".github"
+  - contrib
+  - importer_result.json
